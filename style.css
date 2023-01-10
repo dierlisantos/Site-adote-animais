@@ -1,0 +1,87 @@
+
+
+body {
+    background-color: #FFFAFA;
+    color: #474040 1;
+    margin: 50x 100px 50px 100px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+header {
+    height: 30vh;
+    background-color:#E8E8E8;
+    margin: 0;
+   
+}
+
+main {
+    height: 70vh;
+    padding: 3rem;
+}
+
+/*footer {
+    height: 20vh; background-color:#C0511F; margin: 0; padding: 2rem;
+}
+*/
+
+
+
+p {
+    width: 70vw;
+    margin: 50px auto;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: #FF5C05;
+}
+
+
+
+#logo {width: 110px; position: absolute; bottom: 20px; left:50px; } /*top 0px */
+
+
+nav {display:flex; justify-content: space-evenly;
+    align-items: center;
+  /*  border:1px solid blue; */
+    width: 55vw; margin-left: 15vw;
+    height: 100%; /* se necessario min height */
+
+}
+
+a {color: #FF5C05; font-size: larger; text-decoration: none;}
+nav a:hover{text-decoration: underline;}
+
+.detalhes {
+    border: 1px solid black;
+    width: 30vw;
+    height: 40vh;
+    padding: 10px;
+}
+
+.detalhes img {
+    height: 25vh;
+    float: right;
+    margin-top: 10px;
+}
+
+.detalhes .titulo {
+    font-size: 2.1rem;
+    font-weight: bold;
+    color: #077388;
+}
+
+.detalhes .localizacao {
+    font-size: medium;
+    color: gray;
+}
+
+.detalhes .idade{
+    font-size: medium;
+    color: black;
+}
+
+.detalhes .icon {width: 16px; height: 16px !important; margin-top: -10px !important; float: left !important; margin-right: 5px; cursor: pointer;}
